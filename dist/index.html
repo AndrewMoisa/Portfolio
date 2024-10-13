@@ -3,10 +3,126 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Andrei Moisa | Portofolio</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1 class="bg-green-600">Hello</h1>
+    <header class="sm:relative w-full bg-blue-100 font-mono">
+      <nav
+        class="nav-links flex justify-between items-center p-4 border-solid border-2 border-gray-300"
+      >
+        <div>
+          <a href="#" class="text-xl font-bold">Andrei M.</a>
+        </div>
+        <ul class="hidden md:flex space-x-4">
+          <li>
+            <a href="#" class="hover:text-gray-700">About</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-gray-700">Projects</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-gray-700">Contact</a>
+          </li>
+        </ul>
+        <div class="md:hidden tham tham-e-squeeze tham-w-7 cursor-pointer">
+          <div class="tham-box">
+            <div class="tham-inner"></div>
+          </div>
+        </div>
+      </nav>
+      <ul
+        class="nav-links-mobile hidden flex flex-col items-center justify-center space-y-4 p-5 border-solid border-b-2 border-gray-300 md:hidden"
+      >
+        <li>
+          <a href="#" class="hover:text-gray-700">About</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-gray-700">Projects</a>
+        </li>
+        <li>
+          <a href="#" class="hover:text-gray-700">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section
+        class="hero flex flex-col justify-center items-center gap-8 bg-blue-100 text-center p-4"
+      >
+        <h1 class="text-2xl font-light">Hi, I'm Andrei :)</h1>
+        <img src="/dist/img/emoji.webp" class="max-w-xs rounded-full" alt="" />
+        <p class="text-3xl font-bold">Frontend Developer</p>
+
+        <a
+          href="#"
+          class="uppercase border-solid border-2 border-black p-2 rounded-md"
+        >
+          >Connect with me</a
+        >
+      </section>
+      <section
+        class="flex flex-col justify-center items-center bg-gray-100 font-roboto"
+      >
+        <h2 class="text-center text-3xl p-4">About Me</h2>
+        <p class="text-left p-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          facere autem mollitia praesentium a quo neque necessitatibus, vero
+          adipisci delectus laudantium earum odit sed, ipsum culpa quisquam
+          ratione, velit iste. Illo, cupiditate! Dolores aperiam odit quibusdam
+          libero veritatis culpa eos quod? Facilis aspernatur laudantium culpa
+          dignissimos quas voluptatibus, odit distinctio doloribus dolor
+          architecto blanditiis id expedita impedit quae, quo vel? Distinctio
+          voluptate repellendus odit maxime, ducimus reprehenderit illum,
+          cupiditate voluptatum reiciendis architecto voluptates quibusdam quod
+          vel ipsum, sunt perferendis! Commodi, deleniti! Nostrum quae ipsa
+          adipisci vitae earum, voluptatibus qui eligendi. Quas fugit eum
+          temporibus non laborum voluptate iusto, cumque hic molestiae autem,
+          animi, vitae nam deserunt illo enim voluptates? Fuga eos repudiandae
+          vitae incidunt porro ab repellendus. In, explicabo fugiat? Quos,
+          aliquid quo deserunt praesentium amet sed aperiam tenetur asperiores
+          expedita illum iure quisquam itaque quaerat deleniti eos odio nulla
+          error voluptatibus rerum repellendus maiores. Modi, pariatur nemo.
+          Autem, quam?
+        </p>
+        <a href="" class="text-center text-indigo-700"> >Download resume</a>
+      </section>
+      <section class="font-mono bg-blue-100 ">
+        <h2 class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light ">Skills</h2>
+        <ul class="flex flex-wrap justify-center items-center gap-5 p-4">
+          <div class="grid grid-cols-2 gap-5">
+          <div class="w-full border-4 border-gray-800 p-6  rounded-md">
+            <img src="/dist/img/html-5.png" class=" p-2 rounded-md w-full sm: max-w-32"></img>
+            <p class="text-xl text-center mt-2">HTML</p>
+          </div>
+          <div class="w-full border-4 border-gray-800 p-6  rounded-md">
+          <img src="/dist/img/css-3.png" class="p-2 rounded-md w-full sm: max-w-32"></img>
+          <p class="text-xl text-center mt-2">CSS</p>
+        </div class="w-full border-4 border-gray-800 p-6  rounded-md">
+          <div class="w-full border-4 border-gray-800 p-6  rounded-md">
+          <img src="/dist/img/js.png" class=" p-2 rounded-md w-full sm: max-w-32"></img>
+          <p class="text-xl text-center mt-2">JavaScript</p>
+        </div class="w-full border-4 border-gray-800 p-6  rounded-md">
+          <div class="w-full border-4 border-gray-800 p-6  rounded-md">
+          <img src="/dist/img/Tailwind CSS.png" class=" p-2 rounded-md w-full sm: max-w-32"></img>
+          <p class="text-xl text-center mt-2">Tailwind</p>
+        </div>
+           <!-- <li class="bg-gray-200 p-2 rounded-md">React</li> -->
+          </div>
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <div>
+          <div>
+            <img src="" alt="">
+            <h3>Project 1</h3>
+            <p>Project description</p>
+            <a href=""></a>
+          </div>
+        </div>
+        
+      </section>
+      <script src="/dist/script.js"></script>
+    </main>
+    <footer></footer>
   </body>
 </html>
