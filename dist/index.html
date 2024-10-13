@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrei Moisa is a frontend developer based in Oslo, Norway. He is passionate about creating visually appealing and user-friendly websites. He has experience in building websites using HTML, CSS, JavaScript."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, Web Developer, JavaScript Developer, HTML, CSS, JavaScript, Tailwind, Oslo, Norway"
+    />
+    <meta name="author" content="Andrei Moisa" />
+    <link rel="icon" href="./img/favicon.ico" />
     <title>Andrei Moisa | Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -16,13 +26,25 @@
         </div>
         <ul class="hidden md:flex space-x-4">
           <li>
-            <a href="#about" class=" uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white ">About</a>
+            <a
+              href="#about"
+              class="uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white"
+              >About</a
+            >
           </li>
           <li>
-            <a href="#projects" class="uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white">Projects</a>
+            <a
+              href="#projects"
+              class="uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white"
+              >Projects</a
+            >
           </li>
           <li>
-            <a href="#contact" class=" uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white">Contact</a>
+            <a
+              href="#contact"
+              class="uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white"
+              >Contact</a
+            >
           </li>
         </ul>
         <div class="md:hidden tham tham-e-squeeze tham-w-7 cursor-pointer">
@@ -32,7 +54,7 @@
         </div>
       </nav>
       <ul
-        class="nav-links-mobile  flex flex-col items-center justify-center space-y-4 p-5 border-solid border-b-2 border-gray-300 md:hidden"
+        class="nav-links-mobile hidden flex flex-col items-center justify-center space-y-4 p-5 border-solid border-b-2 border-gray-300 md:hidden"
       >
         <li>
           <a href="#about" class="hover:text-gray-700">About</a>
@@ -47,16 +69,22 @@
     </header>
     <main>
       <section
-        class="hero flex flex-col justify-center items-center gap-8 bg-blue-100 text-center p-4 "
+        class="hero flex flex-col justify-center items-center gap-8 bg-blue-100 text-center p-4"
       >
-        <div class="max-w-full lg:flex flex-row justify-center items-center lg:gap-5 ml-5">
+        <div
+          class="max-w-full lg:flex flex-row justify-center items-center lg:gap-5 ml-5"
+        >
           <h1 class="text-2xl font-light">Hi, I'm Andrei :)</h1>
-        <img src="/dist/img/emoji.webp" class="rounded-full max-w-72" alt="emoji of a person sitting with the laptop in the hands" />
-        <p class="text-3xl font-bold">Frontend Dev</p>
+          <img
+            src="./img/emoji.webp"
+            class="rounded-full max-w-72"
+            alt="emoji of a person sitting with the laptop in the hands"
+          />
+          <p class="text-3xl font-bold">Frontend Dev</p>
         </div>
         <a
           href="#contact"
-          class="  uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white "
+          class="uppercase border-solid border-2 border-black p-2 rounded-md lg:hover:bg-blue-950 hover:text-white"
         >
           Connect with me</a
         >
@@ -65,117 +93,249 @@
         class="flex flex-col justify-center items-center bg-gray-100 font-roboto p-2"
         id="about"
       >
-        <h2 class="text-left text-3xl p-4 ">About Me</h2>
+        <h2 class="text-left text-3xl p-4">About Me</h2>
         <p class="text-center text-sm md:max-w-screen-lg md:text-xl">
-          Hi there! I'm Andrei, a frontend developer based in Oslo, Norway. Currently I'm studying at <a class="underline" href="https://noroff.no">Noroff School of Technology and Digital Media</a>. I'm passionate about creating visually appealing and user-friendly websites. I have experience in building websites using HTML, CSS, JavaScript, and React. I'm always eager to learn new technologies and improve my skills. I'm looking for new opportunities to work on exciting projects and collaborate with other developers. Feel free to contact me if you have any questions or would like to work together.
+          Hi there! I'm Andrei, a frontend developer based in Oslo, Norway.
+          Currently I'm studying at
+          <a class="underline" href="https://noroff.no"
+            >Noroff School of Technology and Digital Media</a
+          >. I'm passionate about creating visually appealing and user-friendly
+          websites. I have experience in building websites using HTML, CSS,
+          JavaScript. I'm always eager to learn new technologies and improve my
+          skills. I'm looking for new opportunities to work on exciting projects
+          and collaborate with other developers. Feel free to contact me if you
+          have any questions or would like to work together.
         </p>
-        <a href="" class="text-center text-indigo-700 md: m-3 text-lg"> Download resume</a>
+        <a href="" class="text-center text-indigo-700 md: m-3 text-lg">
+          Download resume</a
+        >
       </section>
-      <section class="font-mono bg-blue-100 "  >
-        <h2 class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light ">Skills</h2>
-        <div class="flex flex-wrap justify-center items-center gap-5 p-5 ">
-          <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-5 ">
-          <div class="w-full border-4 border-gray-800 p-6  rounded-md ">
-            <img src="/dist/img/html-5.png" class=" p-2 rounded-md w-full sm: max-w-32">
-            <p class="lg:text-xl md:text-base text-center mt-2">HTML</p>
-          </div>
-          <div class="w-full border-4 border-gray-800 p-6  rounded-md">
-            <img src="/dist/img/css-3.png" class="p-2 rounded-md w-full sm: max-w-32">
-            <p class="lg:text-xl md:text-base text-center mt-2">CSS</p>
-          </div>
-          <div class="w-full border-4 border-gray-800 p-6  rounded-md">
-            <img src="/dist/img/js.png" class=" p-2 rounded-md w-full sm: max-w-32">
-            <p class="lg:text-xl md:text-base  text-center mt-2">JavaScript</p>
-          </div>
-            <div class="w-full border-4 border-gray-800 p-6  rounded-md">
-            <img src="/dist/img/Tailwind CSS.png" class=" p-2 rounded-md w-full sm: max-w-32">
-            <p class=" lg:text-xl md:text-base  text-center mt-2">Tailwind</p>
+      <section class="font-mono bg-blue-100">
+        <h2 class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light">
+          Skills
+        </h2>
+        <div class="flex flex-wrap justify-center items-center gap-5 p-5">
+          <div class="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-5">
+            <div class="w-full border-4 border-gray-800 p-6 rounded-md">
+              <img
+                src="./img/html-5.png"
+                alt="logo of html"
+                class="p-2 rounded-md w-full sm: max-w-32"
+              />
+              <p class="lg:text-xl md:text-base text-center mt-2">HTML</p>
+            </div>
+            <div class="w-full border-4 border-gray-800 p-6 rounded-md">
+              <img
+                src="./img/css-3.png"
+                alt="logo of css"
+                class="p-2 rounded-md w-full sm: max-w-32"
+              />
+              <p class="lg:text-xl md:text-base text-center mt-2">CSS</p>
+            </div>
+            <div class="w-full border-4 border-gray-800 p-6 rounded-md">
+              <img
+                src="./img/js.png"
+                alt="logo of js"
+                class="p-2 rounded-md w-full sm: max-w-32"
+              />
+              <p class="lg:text-xl md:text-base text-center mt-2">JavaScript</p>
+            </div>
+            <div class="w-full border-4 border-gray-800 p-6 rounded-md">
+              <img
+                src="./img/TailwindCSS.png"
+                alt="logo of tailwind"
+                class="p-2 rounded-md w-full sm: max-w-32"
+              />
+              <p class="lg:text-xl md:text-base text-center mt-2">Tailwind</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="font-mono" id="projects">
-        <h2 class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light">Projects</h2>
-        <div class="flex flex-col justify-center items-center gap-5 font-roboto md:items-stretch mx-20 md:flex-row flex-shrink">
-          <div class="flex flex-col bg-blue-100 w-96 p-5 rounded-lg md:max-h-full flex-grow">
-            <img class="w-full h-72 object-cover rounded-md" src="/dist/img/carcorner.png" alt="Blog with information about cars">
+        <h2 class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light">
+          Projects
+        </h2>
+        <div
+          class="flex flex-col justify-center items-center gap-5 font-roboto md:items-stretch mx-20 md:flex-row flex-shrink"
+        >
+          <div
+            class="flex flex-col bg-blue-100 w-96 p-5 rounded-lg md:max-h-full flex-grow"
+          >
+            <img
+              class="w-full h-72 object-cover rounded-md"
+              src="./img/carcorner.png"
+              alt="Blog with information about cars"
+            />
             <h3 class="font-semibold text-xl pt-3 pb-1">CarCorner</h3>
-            <p class="text-sm md:text-base">The project demonstrates skills in web development, including HTML, CSS, JavaScript, and the integration of third-party tools for user feedback. The website was built following modern web development principles, with special attention given to user experience and performance optimization.</p>
-          
+            <p class="text-sm md:text-base">
+              The project demonstrates skills in web development, including
+              HTML, CSS, JavaScript, and the integration of third-party tools
+              for user feedback. The website was built following modern web
+              development principles, with special attention given to user
+              experience and performance optimization.
+            </p>
+
             <div class="flex flex-row justify-evenly mt-5">
-              <a class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer" href="https://am-carcorner.netlify.app/">Demo</a>
-              <a class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer" href="https://github.com/AndrewMoisa/car-corner">Github</a>
+              <a
+                class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer"
+                href="https://am-carcorner.netlify.app/"
+                >Demo</a
+              >
+              <a
+                class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer"
+                href="https://github.com/AndrewMoisa/car-corner"
+                >Github</a
+              >
             </div>
           </div>
-      
-          <div class="flex flex-col bg-blue-100 w-96 p-5 rounded-lg lg:max-h-full flex-grow">
-            <img class="w-full h-72 object-cover rounded-md" src="/dist/img/RainyDays.png" alt="clothing shopping website">
+
+          <div
+            class="flex flex-col bg-blue-100 w-96 p-5 rounded-lg lg:max-h-full flex-grow"
+          >
+            <img
+              class="w-full h-72 object-cover rounded-md"
+              src="./img/RainyDays.png"
+              alt="clothing shopping website"
+            />
             <h3 class="font-semibold text-xl pt-3 pb-1">RainyDays</h3>
-            <p class="text-sm md:text-base">As part of my Front-End development studies, I built this dynamic e-commerce web application using WordPress as a headless CMS, integrated with WooCommerce to manage the product catalog, by decoupling the front-end from WordPress.</p>
+            <p class="text-sm md:text-base">
+              As part of my Front-End development studies, I built this dynamic
+              e-commerce web application using WordPress as a headless CMS,
+              integrated with WooCommerce to manage the product catalog, by
+              decoupling the front-end from WordPress.
+            </p>
             <div class="flex flex-row justify-evenly mt-5">
-              <a class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer" href="https://am-rainydays.netlify.app/">Demo</a>
-              <a class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer" href="https://github.com/Noroff-FEU-Assignments/cross-course-project-AndrewMoisa">Github</a>
+              <a
+                class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer"
+                href="https://am-rainydays.netlify.app/"
+                >Demo</a
+              >
+              <a
+                class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer"
+                href="https://github.com/Noroff-FEU-Assignments/cross-course-project-AndrewMoisa"
+                >Github</a
+              >
             </div>
           </div>
-      
-          <div class="flex flex-col bg-blue-100 w-96 p-5 rounded-lg lg:max-h-full flex-grow">
-            <img class="w-full h-72 object-cover rounded-md" src="/dist/img/csm.png" alt="clothing shopping website">
-            <h3 class="font-semibold text-xl pt-3 pb-1">Community Science Museum</h3>
-            <p class="text-sm md:text-base">A web platform designed to engage and educate visitors about scientific concepts, exhibits, and events. The website features a visually appealing design tailored to attract and inform our target audience, fostering a community of science enthusiasts.</p>
+
+          <div
+            class="flex flex-col bg-blue-100 w-96 p-5 rounded-lg lg:max-h-full flex-grow"
+          >
+            <img
+              class="w-full h-72 object-cover rounded-md"
+              src="./img/csm.png"
+              alt="clothing shopping website"
+            />
+            <h3 class="font-semibold text-xl pt-3 pb-1">
+              Community Science Museum
+            </h3>
+            <p class="text-sm md:text-base">
+              A web platform designed to engage and educate visitors about
+              scientific concepts, exhibits, and events. The website features a
+              visually appealing design tailored to attract and inform our
+              target audience, fostering a community of science enthusiasts.
+            </p>
             <div class="flex flex-row justify-evenly mt-5">
-              <a class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer" href="https://am-csm.netlify.app/">Demo</a>
-              <a class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer" href="https://github.com/AndrewMoisa/CommunityScienceMuseum">Github</a>
+              <a
+                class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer"
+                href="https://am-csm.netlify.app/"
+                >Demo</a
+              >
+              <a
+                class="bg-blue-950 p-2 rounded-md text-white hover:bg-gray-500 hover:cursor-pointer"
+                href="https://github.com/AndrewMoisa/CommunityScienceMuseum"
+                >Github</a
+              >
             </div>
           </div>
         </div>
       </section>
-      
-      
-      <section class="font-mono  bg-gray-100 ">
-        <h2 class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light" id="contact">Contact me</h2>
-        <div class="flex flex-col justify-center items-center gap-5 font-roboto md:items-stretch mx-20 md:flex-row flex-shrink">
+
+      <section class="font-mono bg-gray-100 mt-5">
+        <h2
+          class="mt-0 pt-8 text-left ml-10 text-3xl m-8 font-light"
+          id="contact"
+        >
+          Contact me
+        </h2>
+        <div
+          class="flex flex-col justify-center items-center gap-5 font-roboto md:items-stretch mx-20 md:flex-row flex-shrink"
+        >
           <div class="flex flex-col p-3 rounded-lg md:max-h-full flex-grow">
-            <p class="text-sm md:text-base">I'm always open to new opportunities and collaborations. Feel free to reach out if you have any questions or would like to work together on a project.</p>
+            <p class="text-sm md:text-base">
+              I'm always open to new opportunities and collaborations. Feel free
+              to reach out if you have any questions or would like to work
+              together on a project.
+            </p>
             <div class="flex flex-row justify-evenly mt-5">
               <ul class="flex justify-center my-5 space-x-5">
-                
                 <li>
-                  <a class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-blue-950" aria-label="Visit TrendyMinds LinkedIn" href="" target="_blank"><svg
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-10 w-10">
-                    <path fill="currentColor"
-                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
-                    </path>
-                </svg>
-            </a>
-                    
-                </li>
-                <li>
-                    <a href="https://github.com/AndrewMoisa" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-blue-950">
-                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/andreim65/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-blue-950">
-                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path fill-rule="evenodd"
-                            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                            clip-rule="evenodd"></path>
+                  <a
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-gray-500 dark:text-blue-950"
+                    aria-label="Visit TrendyMinds LinkedIn"
+                    href=""
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="h-10 w-10"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                      ></path>
                     </svg>
-                </a>
+                  </a>
                 </li>
-            </ul>
+                <li>
+                  <a
+                    href="https://github.com/AndrewMoisa"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-gray-500 dark:text-blue-950"
+                  >
+                    <svg
+                      class="w-10 h-10"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/andreim65/"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-gray-500 dark:text-blue-950"
+                  >
+                    <svg
+                      class="w-10 h-10"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
-        <div class="flex justify-center items-center p-4 bg-blue-100">
-          <p class="text-sm">© 2024 Andrei Moisa. All rights reserved.</p>
-        </div>
+      <div class="flex justify-center items-center p-4 bg-blue-100">
+        <p class="text-sm">© 2024 Andrei Moisa. All rights reserved.</p>
+      </div>
     </footer>
-      <script src="/dist/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
